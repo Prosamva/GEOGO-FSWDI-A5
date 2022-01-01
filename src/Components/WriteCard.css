@@ -1,0 +1,45 @@
+label {
+    font-weight: 500;
+}
+
+.title {
+    width: 100%;
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+.text-field {
+    margin: 5px;
+    border: 2px solid #ffb74d;
+    border-radius: 5px;
+    padding: 5px;
+    width: 85%;
+    resize: vertical;
+    font-family: 'Karla', sans-serif;
+}
+
+.right-align {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card-form{
+    margin: 5px
+}
+
+.right-align .close {
+    font-size: 16pt;
+    border-radius: 100%;
+    background-size: 40px;
+    padding: 6px 12px;
+    text-align: right;
+}
+
+.write-card {
+    padding-left: 24px !important;
+    min-width: 200px;
+    max-width: 400px;
+    width: 100%;
+    margin: 24px !important;
+}
